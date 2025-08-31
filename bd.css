@@ -48,7 +48,7 @@ padding: 0;
 .title{
     text-shadow: 0 0 20px rgba(176, 151, 151, 0.95);
     color: rgb(0, 0, 0);
-    font-size: 55px;
+    font-size: 50px;
 }
 
 
@@ -62,3 +62,4 @@ textarea{
     padding: 10px;
     color: white;
 }
+
