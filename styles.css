@@ -1,0 +1,28 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  color: rgb(197, 197, 197);
+  text-shadow: 0 0 10px rgb(174, 162, 162);
+}
+canvas {
+  display: block;
+}
+
+.sentence {
+  position: absolute;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.742);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(87, 87, 87);
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  white-space: nowrap; /* prevents line breaks */
+  text-align: center;
+}
